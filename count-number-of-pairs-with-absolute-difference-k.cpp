@@ -1,7 +1,7 @@
 // Problem statement: https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
 // Author: https://github.com/Herakles100
 // Time complexity: O(N^2)
-// Space somplexity: O(N^2)
+// Space complexity: O(N^2)
 // Nested loop approach
 
 class Solution {
