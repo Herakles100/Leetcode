@@ -1,0 +1,25 @@
+// Problem statement: https://leetcode.com/problems/subarray-sum-equals-k
+// Author: https://github.com/Herakles100
+// Time complexity: O(N)
+// Space somplexity: O(N)
+// Hashmap approach
+
+class Solution {
+public:
+    int subarraySum(vector<int>& nums, int k) {
+        unordered_map<int, int> freq;
+        freq[0]++;
+        int sum = 0;
+        int count = 0;
+        
+        for(auto i=0; i<nums.size(); ++i){
+            sum += nums[i];
+            if(freq.find(sum - k) != freq.end())
+                count+= freq[sum-k];
+            freq[sum]++;
+        }
+        
+        return count;
+    }
+    
+};
