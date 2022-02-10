@@ -1,7 +1,7 @@
 // Problem statement: https://leetcode.com/problems/valid-square
 // Author: https://github.com/Herakles100
 // Time complexity: O(1)
-// Space somplexity: O(n)
+// Space complexity: O(n)
 // Hashmap approach
 
 class Solution {
