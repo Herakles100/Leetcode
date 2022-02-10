@@ -1,7 +1,7 @@
 // Problem statement: https://leetcode.com/problems/subarray-sum-equals-k
 // Author: https://github.com/Herakles100
 // Time complexity: O(N)
-// Space somplexity: O(N)
+// Space complexity: O(N)
 // Hashmap approach
 
 class Solution {
