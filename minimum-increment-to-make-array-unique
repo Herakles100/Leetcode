@@ -1,0 +1,19 @@
+// Problem statement: https://leetcode.com/problems/minimum-increment-to-make-array-unique
+// Author: https://github.com/Herakles100
+// Time complexity: O(NlogK)
+// Map approach
+
+class Solution {
+public:
+    int minIncrementForUnique(vector<int>& nums) {
+        int moves = 0, need = 0;
+        map<int,int> count;
+        for (int i : nums) 
+            count[i]++;
+        for (auto x: count) {
+            moves += x.second * max(need - x.first, 0) + x.second * (x.second - 1) / 2;
+            need = max(need, x.first) + x.second;
+        }
+        return moves;
+    }
+};
