@@ -15,14 +15,6 @@ public:
             else memory2 -= i;
             ++i;
         }
-        // if(memory1>0 || memory2>0){
-        //     if(memory1 >= memory2){
-        //             memory1 -= i;
-        //         }
-        //     else memory2 -= i;
-        //     ++i;
-        // }
-        // if(memory1<=0 && memory2<=0)
         return {i,memory1,memory2};
     }
 };
