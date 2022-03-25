@@ -2,7 +2,6 @@
 // Author: https://github.com/Herakles100
 // Time complexity: O(NlogN)
 // Space complexity: O(1)
-// Hashmap approach
 
 class Solution {
 public:
