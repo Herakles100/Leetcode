@@ -1,4 +1,7 @@
-
+// Problem statement: https://leetcode.com/problems/search-a-2d-matrix-ii
+// Author: https://github.com/Herakles100
+// Time complexity: O(M+N)
+// Space complexity: O(1)
 
 class Solution {
 public:
